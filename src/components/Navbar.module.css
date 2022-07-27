@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.nav__logo {
+    border-radius: 50;
+}
+
+.nav__list {
+    display: flex;
+    width: 45%;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+

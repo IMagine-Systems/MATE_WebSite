@@ -1,0 +1,12 @@
+.btn__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn__container_btnStyles {
+    width: 120px;
+    height: 55px;
+    background-color: #007aff;
+    border: 0;
+    border-radius: 25px;
+}
