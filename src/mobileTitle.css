@@ -1,0 +1,35 @@
+  .mobile_title {
+    font-size: 60px;
+    color: #007aff;
+    animation: text-focus-in 1.0s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .mobile_sub_title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #007aff;
+    animation: focus-in-expand-fwd 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    width: 155px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+
+  }
+  
+  .mobile_sub_title::first-letter {
+    font-weight: 400;
+  }
+
+  .mobile_section2__title {
+    font-size: 30px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+    color: #FFFFFF;
+  }
+  .mobile_section2__project__Paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+  }

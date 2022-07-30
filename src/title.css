@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Karla:ital,wght@1,700;1,800&family=Source+Sans+Pro:wght@300;400&display=swap');
+
 @-webkit-keyframes focus-in-expand-fwd {
     0% {
       letter-spacing: -0.5em;
@@ -24,7 +26,6 @@
       -webkit-filter: blur(12px);
               filter: blur(12px);
       opacity: 0;
-      text-shadow: 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
       -webkit-transform: translateZ(0);
@@ -32,7 +33,6 @@
       -webkit-filter: blur(0);
               filter: blur(0);
       opacity: 1;
-      text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
     }
   }
   
@@ -52,16 +52,35 @@
   .title {
     font-size: 120px;
     color: #007aff;
-    animation: focus-in-expand-fwd 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: text-focus-in 1.0s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   
   .sub_title {
-    font-size: 32px;
+    font-size: 85px;
+    font-weight: 400;
     color: #007aff;
-    animation: text-focus-in 1.0s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: focus-in-expand-fwd 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     width: 155px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+
   }
   
   .sub_title::first-letter {
-    font-weight: 670;
+    font-weight: 400;
+  }
+
+  .section2__title {
+    font-size: 88px;
+    font-family: 'Archivo Black';
+    font-style: normal;
+    color: #FFFFFF;
+  }
+  .section2__project__Paragraph {
+    font-size: 45px;
+    font-weight: 400;
+    color: #FFFFFF;
   }

@@ -1,11 +1,18 @@
 @import "./title.css";
+@import "./mobileTitle.css";
 
 body {
   margin: 0;
-  background-color: #f1f4f7;
+  padding: 0;
+  background-color: #FAFCFF;
+  height: 100vh;
 }
 
 a { 
   text-decoration: none;
   color: black;
+}
+
+footer {
+  margin-bottom: 0;
 }

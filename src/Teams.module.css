@@ -1,0 +1,44 @@
+.selector {
+    display: flex;
+    background-color: #f2f5f8;
+    width: 600px;
+    height: 60px;
+    border-radius: 60px;
+    margin-bottom: 50px;
+}
+
+.selector__team__nomal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 216px;
+    background-color: #f2f5f8;
+    height: 60px;
+    border-radius: 60px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.selector__team__select {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 216px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #007aff;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.selector__team__nomal:hover {
+    cursor: pointer;
+}
+
+.selector__team__select:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.mobile_selector {
+    display: flex;
+    background-color: #f2f5f8;
+    width: 300px;
+    height: 30px;
+    border-radius: 60px;
+    margin-bottom: 50px;
+}
+
+.mobile_selector__team__nomal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 216px;
+    background-color: #f2f5f8;
+    height: 30px;
+    border-radius: 60px;
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.mobile_selector__team__select {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: 216px;
+    height: 30px;
+    border-radius: 60px;
+    background-color: #007aff;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.mobile_selector__team__nomal:hover {
+    cursor: pointer;
+}
+
+.mobile_selector__team__select:hover {
+    cursor: pointer;
+}
