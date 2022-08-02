@@ -8,6 +8,11 @@ import TitleMobile from "./mobile/TitleMobile";
 import ProjectMobile from "./mobile/ProjectMobile";
 import ProjectContentMobile from "./mobile/ProjectContentMobile";
 import TeamsMobile from "./mobile/TeamsMobile";
+import CellContent from "./CellContent";
+import CellContentMobile from "./mobile/CellContentMobile";
+import kakao_icon from "../../kakao_icon.png";
+import insta_icon from "../../insta_icon.png";
+import gmail_icon from "../../gmail_icon.png";
 
 function Home() {
     useEffect(() => {
@@ -35,23 +40,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section style={{width: "100%", height: 1016, display: 'flex', flexDirection:'column', alignItems: 'center'}}>
-                    <div style={{display: 'flex', alignItems: 'center', marginTop: 114}}>
-                        <div style={{width: 199, height: 199, borderRadius: "100%", backgroundColor: '#ECECEC'}}>
-                        </div>
-                        <span style={{ marginLeft: 59, fontSize: "50px"}}>매주 같은 Cell 팀원들과 회의</span>
-                    </div>
-                    <div style={{display: 'flex', alignItems: 'center', marginTop: 91}}>
-                        <div style={{width: 199, height: 199, borderRadius: "100%", backgroundColor: '#ECECEC'}}>
-                        </div>
-                        <span style={{ marginLeft: 59, fontSize: "50px"}}>매주 같은 Cell 팀원들과 회의</span>
-                    </div>
-                    <div style={{display: 'flex', alignItems: 'center',  marginTop: 91}}>
-                        <div style={{width: 199, height: 199, borderRadius: "100%", backgroundColor: '#ECECEC'}}>
-                        </div>
-                        <span style={{ marginLeft: 59, fontSize: "50px"}}>매주 같은 Cell 팀원들과 회의</span>
-                    </div>
-                </section>
+                <CellContent />
                 <section style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: "100%", height: 634, backgroundColor: '#315EFFF2'}}>
                     <div style={{display: 'flex', flexDirection: 'column'}}>
                         <div style={{display: 'flex',justifyContent: 'center'}}>
@@ -67,9 +56,16 @@ function Home() {
                     </div>
                 </section>
                 <Teams />
-                <footer>
-                    <div style={{backgroundColor: "#07090b", width: "100%", display: "flex", justifyContent: "center", height: 50, alignItems: 'center'}}>
-                        <span style={{color:"#FFFFFF", fontSize: 33}}>Copylight & MATE</span>
+                <footer style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: "100%", height: 561, backgroundColor: '#ECECEC'}}>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{display: 'flex',justifyContent: 'center', fontSize: "40px", fontWeight: 800, marginBottom: 83}}>
+                            <span>CONTACT</span>
+                        </div>
+                        <div style={{display: 'flex', alignItems: 'center'}}>
+                            <a href={"https://open.kakao.com/o/smLBiP1c"}><img style={{marginRight: 56}} src={kakao_icon} /></a>
+                            <a href={"https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwrwxddWhMFTLwBlgSWgcHLMlfWkZHDppGsmfpHsKbcJCmTBWdTSbKcdkBGTBVTSstFDvV"}><img style={{marginRight: 56}}src={gmail_icon} /></a>
+                            <a href={"https://instagram.com/mate_offical.kr?igshid=YmMyMTA2M2Y="}><img src={insta_icon} /></a>
+                        </div>
                     </div>
                 </footer>
             </PC>
@@ -92,23 +88,7 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section style={{width: "100%", height: 716, display: 'flex', flexDirection:'column', alignItems: 'center'}}>
-                    <div style={{display: 'flex', alignItems: 'center', marginTop: 114}}>
-                        <div style={{width: 89, height: 89, borderRadius: "100%", backgroundColor: '#ECECEC'}}>
-                        </div>
-                        <span style={{ marginLeft: 59, fontSize: "15px"}}>매주 같은 Cell 팀원들과 회의</span>
-                    </div>
-                    <div style={{display: 'flex', alignItems: 'center', marginTop: 91}}>
-                        <div style={{width: 89, height: 89, borderRadius: "100%", backgroundColor: '#ECECEC'}}>
-                        </div>
-                        <span style={{ marginLeft: 59, fontSize: "15px"}}>매주 같은 Cell 팀원들과 회의</span>
-                    </div>
-                    <div style={{display: 'flex', alignItems: 'center',  marginTop: 91}}>
-                        <div style={{width: 89, height: 89, borderRadius: "100%", backgroundColor: '#ECECEC'}}>
-                        </div>
-                        <span style={{ marginLeft: 59, fontSize: "15px"}}>매주 같은 Cell 팀원들과 회의</span>
-                    </div>
-                </section>
+                <CellContentMobile />
                 <section style={{display: 'flex', justifyContent: 'center', alignItems: 'center', width: "100%", height: 334, backgroundColor: '#315EFFF2'}}>
                     <div style={{display: 'flex', flexDirection: 'column'}}>
                         <div style={{display: 'flex',justifyContent: 'center'}}>
@@ -124,9 +104,16 @@ function Home() {
                     </div>
                 </section>
                 <TeamsMobile />
-                <footer>
-                    <div style={{backgroundColor: "#07090b", width: "100%", display: "flex", justifyContent: "center", height: 50, alignItems: 'center'}}>
-                        <span style={{color:"#FFFFFF", fontSize: 33}}>Copylight & MATE</span>
+                <footer style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#ECECEC'}}>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{display: 'flex',justifyContent: 'center', fontSize: "25px", marginTop: 35, fontWeight: 800, marginBottom: 83}}>
+                            <span>CONTACT</span>
+                        </div>
+                        <div style={{display: 'flex', alignItems: 'center', marginBottom: 35}}>
+                            <a href={"https://open.kakao.com/o/smLBiP1c"}><img style={{ width: "40px", height: "40px", marginRight: 56}} src={kakao_icon} /></a>
+                            <a href={"https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHwrwxddWhMFTLwBlgSWgcHLMlfWkZHDppGsmfpHsKbcJCmTBWdTSbKcdkBGTBVTSstFDvV"}><img style={{ width: "40px", height: "40px", marginRight: 56}}src={gmail_icon} /></a>
+                            <a href={"https://instagram.com/mate_offical.kr?igshid=YmMyMTA2M2Y="}><img style={{width: "40px", height: "40px"}} src={insta_icon} /></a>
+                        </div>
                     </div>
                 </footer>
             </Mobile>

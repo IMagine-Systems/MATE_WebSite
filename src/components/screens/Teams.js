@@ -44,16 +44,16 @@ export default function Teams() {
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 181, marginBottom: 217}}>
                     <h1 style={{marginBottom: 55, fontSize: "40px"}}>합류 여정</h1>
                     <div style={{display: 'flex' }}>
-                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor:"#ECECEC", width: 216, height: 85, marginRight: 29, borderRadius: "43px",}}>
+                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor:"#ECECEC", width: 288, height: 187, marginRight: 29, borderRadius: "43px",}}>
                             <span style={{alignItems: 'center', fontSize: "25px", fontWeight: 600}}>서류 지원</span>                            
                         </div>
-                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center',backgroundColor:"#ECECEC", width: 216, height: 85, marginRight: 29, borderRadius: "43px",}}>
+                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center',backgroundColor:"#ECECEC", width: 288, height: 187, marginRight: 29, borderRadius: "43px",}}>
                             <span style={{fontSize: "25px", fontWeight: 600}}>온라인 화상 회의</span>                        
                         </div>
-                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center',backgroundColor:"#ECECEC", width: 216, height: 85, marginRight: 29, borderRadius: "43px",}}>
+                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center',backgroundColor:"#ECECEC", width: 288, height: 187, marginRight: 29, borderRadius: "43px",}}>
                             <span style={{fontSize: "25px", fontWeight: 600}}>1주 협업</span>                           
                         </div>
-                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center',backgroundColor:"#ECECEC", width: 216, height: 85, borderRadius: "43px",}}>
+                        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center',backgroundColor:"#ECECEC", width: 288, height: 187, borderRadius: "43px",}}>
                             <span style={{fontSize: "25px", fontWeight: 600}}>최종 합류</span>                           
                         </div>
                     </div>
@@ -71,6 +71,7 @@ export default function Teams() {
                 <div style={{marginBottom: 254 }}>                                        
                     <Button title="함께하기"/>
                 </div>
+                <span style={{textAlign: 'center', display: 'flex', justifyContent: 'center', fontSize: "25px", color: "#315EFF", marginBottom: 148}}>*궁금한 점들은 아래 CONTACT로 통해 편하게 물어봐 주세요.<br></br>실력보다 열정이 중요하다고 생각하기에 언제나 기다리고 있습니다.</span>
             </div>
         </section>
     );

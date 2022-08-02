@@ -23,21 +23,22 @@ export default function TeamsMobile() {
             <div style={{}}>
                 <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 181, marginBottom: 263}}>
                     <h1 style={{marginBottom: 55, fontSize: "25px"}}>지원 방법</h1>
-                    <div style={{display: 'flex' }}>
-                        <div style={{backgroundColor:"#ECECEC", width: 84, height: 167, marginRight: 13, borderRadius: "43px", paddingTop: 27, paddingLeft: 34}}>
+                    <div style={{display: 'flex', flexDirection: 'column'}}>
+                        <div style={{display:'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', backgroundColor:"#ECECEC", width: 220, height: 130, marginRight: 13, borderRadius: "20px", marginBottom: 40}}>
                             <span style={{display: 'block', marginBottom: 13, fontSize: "15px", fontWeight: 600}}>모집 기간</span>
-                            <span style={{fontWeight: 400, fontSize: "15px"}}>상사모집!</span>
+                            <span style={{fontWeight: 400, fontSize: "10px"}}>상사모집!</span>
                         </div>
-                        <div style={{backgroundColor:"#ECECEC", width: 84, height: 167, marginRight: 13, borderRadius: "43px", paddingTop: 27, paddingLeft: 34}}>
-                            <span style={{display: 'block', marginBottom: 13, fontSize: "10px", fontWeight: 600}}>지원 자격</span>
-                            <span style={{fontWeight: 400, fontSize: "10px"}}>1~4주 단위의 프로젝트<br></br>참가 가능자</span>
-                            <span style={{display: 'block', marginTop: 19, fontWeight: 400, fontSize: "10px"}}>매 스프린트 후에는<br></br>포트폴리오 작성 및 정비 기간</span>
+                        <div style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center', backgroundColor:"#ECECEC", width: 220, height: 145, marginRight: 13, borderRadius: "20px", marginBottom: 40}}>
+                            <span style={{display: 'block', marginBottom: 13, fontSize: "15px", fontWeight: 600}}>지원 자격</span>
+                            <span style={{fontWeight: 400, fontSize: "10px"}}>1~4주 단위의 프로젝트 참가 가능자</span>
+                            <span style={{display: 'block', marginTop: 19, fontWeight: 400, fontSize: "10px"}}>매 스프린트 후에는 포트폴리오 작성 및 정비 기간</span>
                         </div>
-                        <div style={{backgroundColor:"#ECECEC", width: 84, height: 167, borderRadius: "43px", paddingTop: 27, paddingLeft: 34}}>
-                            <span style={{display: 'block', marginBottom: 13, fontSize: "10px", fontWeight: 600}}>지원 방법</span>
-                            <span style={{fontWeight: 400, fontSize: "10px"}}>1차 서류<br></br><span style={{fontSize: "10px", color: '#656565'}}>지원서 작성 및 포트폴리오</span></span>
-                            <span style={{display: 'block', marginTop: 20, fontWeight: 400, fontSize: "10px"}}>2차 회의</span>
-                            <span style={{display: 'block', marginTop: 20, fontWeight: 400, fontSize: "10px"}}>3차 단기 협업 후 최종 합류</span>
+                        <div style={{display:'flex', flexDirection: 'column', justifyContent: 'center', alignItems:'center', backgroundColor:"#ECECEC", width: 220, height: 145, borderRadius: "20px", marginBottom: 40}}>
+                            <span style={{display: 'block', marginBottom: 13, fontSize: "15px", fontWeight: 600}}>지원 방법</span>
+                            <span style={{fontWeight: 400, fontSize: "10px"}}>1차 서류</span>
+                            <span style={{display: 'block', marginTop: 10, fontWeight: 400, fontSize: "10px"}}>지원서 작성 및 포트폴리오</span>
+                            <span style={{display: 'block', marginTop: 10, fontWeight: 400, fontSize: "10px"}}>2차 회의</span>
+                            <span style={{display: 'block', marginTop: 10, fontWeight: 400, fontSize: "10px"}}>3차 단기 협업 후 최종 합류</span>
                         </div>
                     </div>
                 </div>
@@ -71,6 +72,7 @@ export default function TeamsMobile() {
                 <div style={{marginBottom: 254 }}>
                     <ButtonMobile title="함께하기" />                
                 </div>
+                <span style={{textAlign: 'center', display: 'flex', justifyContent: 'center', fontSize: "10px", color: "#315EFF", marginBottom: 148}}>*궁금한 점들은 아래 CONTACT로 통해 편하게 물어봐 주세요.<br></br>실력보다 열정이 중요하다고 생각하기에 언제나 기다리고 있습니다.</span>
             </div>
         </section>
     );

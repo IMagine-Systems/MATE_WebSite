@@ -9,12 +9,8 @@ export default function ProjectContentMobile() {
     return (
         <section>
             <div style={{display: "flex", flexDirection: 'column', justifyContent: 'space-around'}}>
-                <div style={{display: 'flex', width: "100%", justifyContent: 'center', marginTop: 168, alignItems: 'flex-end'}}>
-                    <div style={{position: 'relative', width: 526}}>
-                        <img src={mate_1} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
-                        <img src={mate_2} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
-                    </div>
-                    <div style={{ marginBottom: 90, marginRight: 30}}>
+                <div style={{display: 'flex', flexDirection: 'column', width: "100%", alignItems: 'center', marginTop: 168,}}>
+                    <div style={{ marginBottom: 90}}>
                         <span style={{fontSize: "20px", fontWeight: 700}}>MATE 6.0</span>
                         <p style={{fontSize: "10px", fontWeight: 400}}>
                             카풀 서비스 기간:
@@ -22,13 +18,13 @@ export default function ProjectContentMobile() {
                         </p>
                         <p style={{fontSize: "10px", fontWeight: 400}}>대학교의 교통 불편함을<br></br>‘자차’ 보유 학생들과<br></br>같은 지역에 자취하는 학생들을 함께<br></br>연결한다는 가설을 검증 후 App으로 제작</p>
                     </div>
-                </div>
-                <div style={{display: 'flex', width: "100%", justifyContent: 'center', marginTop: 64, alignItems: 'flex-end'}}>
-                    <div style={{position: 'relative', width: 526}}>
-                        <img src={mate_3} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
-                        <img src={mate_4} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
+                    <div style={{display: 'flex', position: 'relative'}}>
+                        <img src={mate_1} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
+                        <img src={mate_2} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
                     </div>
-                    <div style={{marginBottom: 90, marginRight: 30}}>
+                </div>
+                <div style={{display: 'flex', flexDirection:'column', width: "100%", alignItems: 'center', marginTop: 64,}}>
+                    <div style={{marginBottom: 90,}}>
                         <span style={{fontSize: "20px", fontWeight: 700}}>MATE 7.0</span>
                         <p style={{fontSize: "10px", fontWeight: 400}}>
                             시험 후기 서비스 
@@ -41,13 +37,13 @@ export default function ProjectContentMobile() {
                             작성할 수 있는 APP을 제작
                         </p>                   
                     </div>
-                </div>
-                <div style={{display: 'flex', width: "100%", justifyContent: 'center', marginTop: 64, alignItems: 'flex-end' }}>
-                    <div style={{ position: 'relative', width: 526}}>
-                        <img src={mate_5} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
-                        <img src={mate_6} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
+                    <div style={{ display:'flex', position: 'relative'}}>
+                        <img src={mate_3} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
+                        <img src={mate_4} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
                     </div>
-                    <div style={{marginBottom: 90, marginRight: 30}}>
+                </div>
+                <div style={{display: 'flex', flexDirection:'column', width: "100%", alignItems: 'center', marginTop: 64, }}>
+                    <div style={{marginBottom: 90}}>
                         <span style={{fontSize: "20px", fontWeight: 700}}>MATE 8.0</span>
                         <p style={{fontSize: "10px", fontWeight: 400}}>
                             현지 가이드 서비스 IR 피칭
@@ -59,6 +55,10 @@ export default function ProjectContentMobile() {
                             현지인과 여행자를 매칭 시켜주는 여행<br></br>                            
                             서비스를 APP으로 제작
                         </p>
+                    </div>
+                    <div style={{ display:'flex', position: 'relative'}}>
+                        <img src={mate_5} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
+                        <img src={mate_6} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
                     </div>
                 </div>
                 <div style={{display: 'flex', width: "100%", justifyContent: 'center', alignItems: 'center', marginTop: 130}}>
