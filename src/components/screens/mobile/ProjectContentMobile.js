@@ -3,7 +3,7 @@ import mate_2 from "../../../../src/mate_6 2.png";
 import mate_3 from "../../../../src/mate_7 1.png";
 import mate_4 from "../../../../src/mate_7 2.png";
 import mate_5 from "../../../../src/mate8_1-removebg-preview 1.png";
-import mate_6 from "../../../../src/mate8_2-removebg-preview 1.png";
+import mate_6 from "../../../../src/mate_8 2.png";
 
 export default function ProjectContentMobile() {
     return (
@@ -39,7 +39,7 @@ export default function ProjectContentMobile() {
                     </div>
                     <div style={{ display:'flex', position: 'relative'}}>
                         <img src={mate_3} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
-                        <img src={mate_4} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
+                        <img src={mate_4} style={{width: 186, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
                     </div>
                 </div>
                 <div style={{display: 'flex', flexDirection:'column', width: "100%", alignItems: 'center', marginTop: 64, }}>
@@ -57,8 +57,8 @@ export default function ProjectContentMobile() {
                         </p>
                     </div>
                     <div style={{ display:'flex', position: 'relative'}}>
-                        <img src={mate_5} style={{ position:'relative', width: 186, height: 380, display: "block", zIndex: 9}}/>
-                        <img src={mate_6} style={{width: 176, height: 290, display: "block", position: 'absolute', top: 83, left: 80, zIndex: 1}}/>
+                        <img src={mate_5} style={{ width: 236, height: 380, display: "block", zIndex: 9}}/>
+                        <img src={mate_6} style={{width: 220, height: 388, display: "block", position: 'absolute', left: 80, zIndex: 1}}/>
                     </div>
                 </div>
                 <div style={{display: 'flex', width: "100%", justifyContent: 'center', alignItems: 'center', marginTop: 130}}>

@@ -2,8 +2,8 @@ import mate_1 from "../../../src/mate_6 1.png";
 import mate_2 from "../../../src/mate_6 2.png";
 import mate_3 from "../../../src/mate_7 1.png";
 import mate_4 from "../../../src/mate_7 2.png";
-import mate_5 from "../../../src/mate8_1-removebg-preview 1.png";
-import mate_6 from "../../../src/mate8_2-removebg-preview 1.png";
+import mate_5 from "../../../src/mate_8 1.png";
+import mate_6 from "../../../src/mate_8 2.png";
 
 export default function ProjectContent() {
     return (
@@ -44,10 +44,10 @@ export default function ProjectContent() {
                 </div>
                 <div style={{display: 'flex', width: "100%", justifyContent: 'center', marginTop: 64, alignItems: 'flex-end' }}>
                     <div style={{ position: 'relative', width: 526}}>
-                        <img src={mate_5} style={{ position:'relative', width: 376, height: 580, display: "block", zIndex: 9}}/>
-                        <img src={mate_6} style={{width: 276, height: 491, display: "block", position: 'absolute', top: 83, left: 165, zIndex: 1}}/>
+                        <img src={mate_5} style={{ position:'relative', marginLeft: -60, width: 420, height:780, display: "block", zIndex: 9}}/>
+                        <img src={mate_6} style={{width: 296, height: 635, display: "block", position: 'absolute', top: 83, left: 140, zIndex: 1}}/>
                     </div>
-                    <div style={{marginBottom: 90}}>
+                    <div style={{marginBottom: 200}}>
                         <span style={{fontSize: "40px", fontWeight: 700}}>MATE 8.0</span>
                         <p style={{fontSize: "30px", fontWeight: 400}}>
                             현지 가이드 서비스 IR 피칭
