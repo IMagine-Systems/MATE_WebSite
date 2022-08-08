@@ -4,17 +4,23 @@ import mate_3 from "../../../src/mate_7 1.png";
 import mate_4 from "../../../src/mate_7 2.png";
 import mate_5 from "../../../src/mate_8 1.png";
 import mate_6 from "../../../src/mate_8 2.png";
+import React, {useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function ProjectContent() {
+    useEffect(() => {
+        AOS.init();
+    }, [])
     return (
         <section>
             <div style={{display: "flex", flexDirection: 'column', justifyContent: 'space-around'}}>
                 <div style={{display: 'flex', width: "100%", justifyContent: 'center', marginTop: 168, alignItems: 'flex-end'}}>
-                    <div style={{position: 'relative', width: 526}}>
+                    <div data-aos="fade-right" style={{position: 'relative', width: 526}}>
                         <img src={mate_1} style={{ position:'relative', width: 326, height: 580, display: "block", zIndex: 9}}/>
                         <img src={mate_2} style={{width: 276, height: 491, display: "block", position: 'absolute', top: 83, left: 180, zIndex: 1}}/>
                     </div>
-                    <div style={{ marginBottom: 90}}>
+                    <div data-aos="fade-left" style={{ marginBottom: 90}}>
                         <span style={{fontSize: "40px", fontWeight: 700}}>MATE 6.0</span>
                         <p style={{fontSize: "30px", fontWeight: 400}}>
                             카풀 서비스 기간:
@@ -24,11 +30,11 @@ export default function ProjectContent() {
                     </div>
                 </div>
                 <div style={{display: 'flex', width: "100%", justifyContent: 'center', marginTop: 64, alignItems: 'flex-end'}}>
-                    <div style={{position: 'relative', width: 526}}>
+                    <div data-aos="fade-right" style={{position: 'relative', width: 526}}>
                         <img src={mate_3} style={{ position:'relative', width: 326, height: 580, display: "block", zIndex: 9}}/>
                         <img src={mate_4} style={{width: 276, height: 491, display: "block", position: 'absolute', top: 83, left: 180, zIndex: 1}}/>
                     </div>
-                    <div style={{marginBottom: 90}}>
+                    <div data-aos="fade-left" style={{marginBottom: 90}}>
                         <span style={{fontSize: "40px", fontWeight: 700}}>MATE 7.0</span>
                         <p style={{fontSize: "30px", fontWeight: 400}}>
                             시험 후기 서비스 
@@ -43,11 +49,11 @@ export default function ProjectContent() {
                     </div>
                 </div>
                 <div style={{display: 'flex', width: "100%", justifyContent: 'center', marginTop: 64, alignItems: 'flex-end' }}>
-                    <div style={{ position: 'relative', width: 526}}>
+                    <div data-aos="fade-right" style={{ position: 'relative', width: 526}}>
                         <img src={mate_5} style={{ position:'relative', marginLeft: -60, width: 420, height:780, display: "block", zIndex: 9}}/>
                         <img src={mate_6} style={{width: 296, height: 635, display: "block", position: 'absolute', top: 83, left: 140, zIndex: 1}}/>
                     </div>
-                    <div style={{marginBottom: 200}}>
+                    <div data-aos="fade-left" style={{marginBottom: 200}}>
                         <span style={{fontSize: "40px", fontWeight: 700}}>MATE 8.0</span>
                         <p style={{fontSize: "30px", fontWeight: 400}}>
                             현지 가이드 서비스 IR 피칭
